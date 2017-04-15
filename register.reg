@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\KillNotResponding]
+"icon"="taskmgr.exe,-30651"
+"MUIverb"="Nino Refresher"
+"Position"="Top"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\KillNotResponding\command]
+@="cmd.exe /K taskkill.exe /F /FI \"status eq NOT RESPONDING\""
+@="cmd.exe /K C:\Users\Public\Desktop\Far.Cry.Primal.REPACK-KaOs.lnk""
